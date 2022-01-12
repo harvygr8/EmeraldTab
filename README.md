@@ -16,10 +16,9 @@
    npm run buildall
    ```
 
-  - To Install extension to chrome
-    (Note: Always prefer to Install from the Chrome web store)
-    ```sh
-    Open the 'Manage Extensions' Tab in Chrome.
-    Select 'Load Unpacked' and add the 'public' folder.
-    Turn on the extension and open a new tab.
-    ```
+  - To Install extension to chrome (Note: Always prefer to Install from the Chrome web store)
+  ```sh
+  Open the 'Manage Extensions' Tab in Chrome.
+  Select 'Load Unpacked' and add the 'public' folder.
+  Turn on the extension and open a new tab.
+  ```
