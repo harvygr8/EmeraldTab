@@ -1,7 +1,7 @@
 # EmeraldTab
  Chrome Extension that gives you a minimalistic new tab with some key information
 
- ![](img/show1.png)
+ ![](img/show1.PNG)
 
 # About
   EmeraldTab is a New Tab Chrome Extension that gives you Weather Data , Date/Time information and Quick Links with a customizable background.
@@ -11,7 +11,15 @@
    ```sh
    npm install
    ```
-  - To Run the application
+  - To build the application
    ```sh
-   npm start
+   npm run buildall
    ```
+
+  - To Install extension to chrome
+    (Note: Always prefer to Install from the Chrome web store)
+    ```sh
+    Open the 'Manage Extensions' Tab in Chrome.
+    Select 'Load Unpacked' and add the 'public' folder.
+    Turn on the extension and open a new tab.
+    ```
