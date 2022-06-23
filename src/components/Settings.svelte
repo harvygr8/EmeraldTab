@@ -50,7 +50,7 @@
 
 </script>
 
-<div class="uppercase mt-4 flex flex-row  justify-center">
+<div class="uppercase flex flex-row  justify-center">
 
   <!-- <fieldset class="mt-2 flex flex-col justify-center bg-wh">
     <legend class="text-white text-center mb-2 ">Font</legend>
@@ -59,7 +59,7 @@
   </fieldset> -->
 
     <div class="mb-1 flex flex-col justify-center ">
-      <p class="mt-1 text-white text-center mb-1 underline">Colour</p>
+      <p class="mt-1 text-white text-center mb-1">Colour</p>
 
         <!-- <input class="mx-2 p-1" style="padding:0;background:none;" type="color" id="bgColor-1"/>
         <button class="mx-2 p-1 text-xs border border-white hover:bg-emerald-600 rounded-md text-white" on:click={() => saveChanges()}>Apply</button> -->
@@ -68,24 +68,24 @@
     </div>
 
     <div class="ml-8 mt-1 mb-1 flex flex-col justify-center ">
-      <p class="mt-1 text-white text-center mb-1 underline">Font</p>
+      <p class="mt-1 text-white text-center mb-1">Font</p>
 
       <button class="uppercase mt-2 mx-2 p-1 text-xs border border-white hover:font-bold rounded-sm text-white" on:click={() => saveFont()}>Share Tech Mono</button>
       <button class="uppercase mx-2 mt-2 p-1 mb-2 text-xs border border-white hover:font-bold rounded-sm text-white" on:click={() => saveFont2()}>Roboto Mono</button>
     </div>
 
     <div class="ml-8 mt-1 mb-1 flex flex-col justify-center ">
-      <p class="mt-1 text-white text-center mb-1 underline">Time</p>
+      <p class="mt-1 text-white text-center mb-1">Time</p>
 
       <button class="uppercase mt-2 mx-2 p-1 text-xs border border-white hover:font-bold rounded-sm text-white" on:click={() => saveTimeFormat()}>24 Hour</button>
       <button class="uppercase mx-2 mt-2 p-1 mb-2 text-xs border border-white hover:font-bold rounded-sm text-white" on:click={() => saveTimeFormat2()}>12 Hour</button>
     </div>
 
     <div class="ml-8 mt-1 mb-1 flex flex-col justify-center ">
-      <p class="mt-1 text-white text-center mb-1 underline">Weather</p>
+      <p class="mt-1 text-white text-center mb-1">Weather</p>
 
       <button class="uppercase mt-2 mx-2 p-1 text-xs border border-white hover:font-bold rounded-sm text-white" on:click={() => saveWeatherFormat()}>Celsius</button>
-      <button class="uppercase mx-2 mt-2 p-1 mb-2 text-xs border border-white hover:font-bold rounded-sm text-white" on:click={() => saveWeatherFormat2()}>Farheneit</button>
+      <button class="uppercase mx-2 mt-2 p-1 mb-2 text-xs border border-white hover:font-bold rounded-sm text-white" on:click={() => saveWeatherFormat2()}>Fahrenheit</button>
     </div>
 
 </div>

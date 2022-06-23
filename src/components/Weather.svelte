@@ -1,8 +1,8 @@
 <script>
 
 let temp=-1;
-const refreshTime = 60;
-const showWeatherDebug=true;
+const refreshTime = 100;
+const showWeatherDebug=false;
 let format = "cel";
 let fmt="°C";
 
